@@ -57,5 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/Class/C3/Adopt/*.pm
+%{perl_vendorlib}/Class/C3/Adopt
 %{_mandir}/man3/*
