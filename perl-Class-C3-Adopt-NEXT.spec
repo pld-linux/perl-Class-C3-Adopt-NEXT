@@ -8,13 +8,13 @@
 Summary:	Class::C3::Adopt::NEXT - make NEXT suck less
 #Summary(pl.UTF-8):	
 Name:		perl-Class-C3-Adopt-NEXT
-Version:	0.07
+Version:	0.12
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	717030a4d5abe25d494124dc935b1158
+# Source0-md5:	18153deca0c0dcb9b55bcf2581f1874f
 URL:		http://search.cpan.org/dist/Class-C3-Adopt-NEXT/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
