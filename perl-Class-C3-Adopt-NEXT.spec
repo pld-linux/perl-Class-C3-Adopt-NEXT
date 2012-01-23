@@ -8,13 +8,13 @@
 Summary:	Class::C3::Adopt::NEXT - make NEXT suck less
 #Summary(pl.UTF-8):	
 Name:		perl-Class-C3-Adopt-NEXT
-Version:	0.12
+Version:	0.13
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	18153deca0c0dcb9b55bcf2581f1874f
+# Source0-md5:	4b4a59b5004ab7e715315e3131773e04
 URL:		http://search.cpan.org/dist/Class-C3-Adopt-NEXT/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -27,10 +27,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module is intended as a drop-in replacement for NEXT, supporting the same
-interface, but using Class::C3 to do the hard work. You can then write new
-code without NEXT, and migrate individual source files to use Class::C3 or
-method modifiers as appropriate, at whatever pace you're comfortable with.
+This module is intended as a drop-in replacement for NEXT, supporting
+the same interface, but using Class::C3 to do the hard work. You can
+then write new code without NEXT, and migrate individual source files
+to use Class::C3 or method modifiers as appropriate, at whatever pace
+you're comfortable with.
 
 # %description -l pl.UTF-8
 # TODO
