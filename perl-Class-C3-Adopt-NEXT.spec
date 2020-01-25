@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	C3-Adopt-NEXT
 Summary:	Class::C3::Adopt::NEXT - make NEXT suck less
